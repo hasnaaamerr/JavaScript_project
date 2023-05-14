@@ -1,0 +1,111 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(227, 214, 179);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+}
+
+.container .input {
+    width: 500px;
+    background-color: rgb(234, 211, 229);
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#submit {
+    margin-left: 245px;
+    margin-top: 20px;
+    background-color: rgb(6, 6, 213);
+    color: #fff;
+    width: 80px;
+    border: 2px solid rgb(19, 21, 20);
+    border-radius: 10px;
+    height: 30px;
+}
+
+/* #name {
+    background-color: aqua;
+} */
+
+
+
+
+
+/* #submit {
+    background-color: rgb(5, 135, 70);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 10px;
+
+    margin: auto;
+} */
+
+.form {
+    margin: auto auto;
+}
+
+
+
+#footer {
+    background-color: rgb(12, 12, 12);
+    height: 300px;
+    margin-top: 180px;
+}
+
+span {
+    /* position: relative; */
+    font-size: 50px;
+    /* width: 400px; */
+    color: rgb(255, 255, 255);
+    /* left: 700px; */
+    /* right: 0px; */
+    top: 50%;
+    margin: 30px;
+}
+
+#con {
+    color: #fff;
+    /* position: relative; */
+    /* font-size: 30px; */
+    left: 600px;
+    /* /* top: 50%; */
+}
+
+#pf {
+    display: inline-block;
+    width: 150px;
+    margin: 30px;
+    color: #fff;
+}

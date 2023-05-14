@@ -1,0 +1,236 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#cart {
+    position: relative;
+    text-align: end;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+
+
+}
+
+/* #count {
+    background-color: rgb(202, 174, 174);
+    position: absolute; */
+/* height: 30px;
+    width: 30px; */
+/* border-radius: 50%;
+    text-align: center;
+    right: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 90%;
+
+
+
+} */
+
+
+
+
+
+
+
+#slider {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border: 3px solid black;
+}
+
+#slider img {
+    width: 100%;
+    height: 400px;
+    display: none;
+}
+
+
+
+
+
+#btn,
+#btn2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 2px 3px 3px 2px;
+
+}
+
+#btn2 {
+    right: 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+#laps,
+#cars,
+#makeup,
+#phone {
+    margin-right: 15%;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(22, 5, 98);
+    width: 70px;
+    color: #fff;
+}
+
+#filter_buttons {
+
+    margin-bottom: 50px;
+}
+
+.car {
+
+    width: 250px;
+    height: 200px;
+}
+
+.lap {
+
+    width: 250px;
+    height: 200px;
+}
+
+.phone {
+    width: 250px;
+    height: 200px;
+}
+
+.makeup {
+
+    width: 250px;
+    height: 200px;
+}
+
+
+.show {
+    display: inline-block;
+    /* margin-bottom: 100px; */
+
+    /* display: flex; */
+    /* display: flexbox; */
+}
+
+.hide {
+    display: none;
+    border: none;
+    ;
+}
+
+.div1 {
+    display: inline-block;
+    position: relative;
+    /* border: 1px solid rgb(18, 17, 17); */
+    width: 250px;
+
+}
+
+.add {
+    position: absolute;
+
+    bottom: 0%;
+    right: 0%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 198);
+    color: #fff;
+}
+
+
+
+
+
+#myBtn {
+    display: none;
+    /* Hide the button initially */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(128, 130, 248);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+
+#footer {
+    margin-top: 50px;
+    background-color: rgb(12, 12, 12);
+    height: 300px;
+}
+
+span {
+    /* position: relative; */
+    font-size: 50px;
+    /* width: 400px; */
+    color: rgb(255, 255, 255);
+    /* left: 700px; */
+    /* right: 0px;  */
+    top: 50%;
+    margin: 30px;
+}
+
+*/ #con {
+    color: #fff;
+    /* position: relative; */
+    font-size: 30px;
+    /* left: 600px; */
+    top: 50%;
+}
+
+#pf {
+    display: inline-block;
+    width: 150px;
+    margin: 30px;
+    color: #fff;
+}
+
+
+/* ***********cart******* */

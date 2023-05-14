@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul id="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html" target="_blank">About</a></li>
+
+            <li><a href="contactUS.html" target="_blank">Contact us</a></li>
+        </ul>
+    </nav>
+    <div id="cart">
+        <spam id="count">0</spam>
+        <i class="fa-solid fa-cart-shopping" onclick="showCart() "></i>
+        <div id="parent"></div>
+
+    </div>
+    <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+
+    <!-- ************************************* -->
+    <div id="slider">
+        <img src="image/makeup18.jpg" alt="">
+        <img src="image/iphon10.jpg" alt="">
+        <img src="image/iphon13.jpg" alt="">
+        <img src="image/iphon4.jpg" alt="">
+        <img src="image/iphon411.jpg " alt="">
+        <img src="image/iphon5.jpg" alt="">
+
+    </div>
+    <!-- slider buttons -->
+    <button id="btn" onclick="showSlidesForward()">&#10094</button>
+    <button id="btn2" onclick="showSlidesBack()">&#10095</button>
+
+    <div id="filter_buttons">
+        <button id="phone" class="filter_button" onclick="getphones()">Phone</button>
+        <button id="laps" class="filter_button" onclick="getlaps()">Laps</button>
+        <button id="makeup" class="filter_button" onclick="getmakeup()">Makeup</button>
+        <button id="cars" class="filter_button" onclick="getcars()">Cars</button>
+    </div>
+
+
+
+    <div class="div1 all phone1">
+        <img src="image/iphon5.jpg" class="phone all phone1" alt="" width="250">
+
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+    <div class="div1 all phone1">
+        <img src="image/iphon13.jpg" class="phone all phone1" alt="" width="250">
+
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+    <div class="div1 all phone1">
+        <img src="image/iphon10.jpg" class="phone all phone1" alt="" width="250">
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+    <div class="div1 all phone1">
+        <img src="image/iphon4.jpg" class="phone all phone1" alt="" width="250">
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+    <div class="div1 all phone1">
+        <img src="image/iphon411.jpg" class="phone all phone1" alt="" width="250">
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+    <div class="div1 all phone1">
+        <img src="image/iphon44.jpg" class="phone all phone1" alt="" width="250">
+        <p style="width: 200px;" class="all phone1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all phone1 btn" onclick="counts()">+</button>
+
+    </div>
+
+    <!-- <img src="image/iphon13.jpg" class="phone all" alt="">
+    <img src="image/iphon10.jpg" class="phone all" alt="">
+    <img src="image/iphon4.jpg" class="phone all" alt="">
+    <img src="image/iphon411.jpg" class="phone all" alt="">
+    <img src="image/iphon44.jpg" class="phone all" alt=""> -->
+
+    <div class="div1 all cars1">
+        <img src="image/car7.png" class="car  all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all cars1">
+        <img src="image/car1.jpg" class="car all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all cars1">
+        <img src="image/car26.jpg" class="car  all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all cars1">
+        <img src="image/car2.jpg" class="car  all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all cars1">
+        <img src="image/car4.jpg" class="car  all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all cars1">
+        <img src="image/car5.png" class="car  all cars1" alt="">
+        <p style="width: 200px;" class="all cars1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all cars1 btn" onclick="counts()">+</button>
+    </div>
+
+    <!-- <img src="image/car7.png" class="car  all" alt="">
+    <img src="image/car1.jpg" class="car all" alt="">
+    <img src="image/car26.jpg" class="car all" alt="">
+    <img src="image/car2.jpg" class="car all" alt="">
+    <img src="image/car4.jpg" class="car all" alt="">
+    <img src="image/car5.png" class="car all" alt=""> -->
+
+
+    <div class="div1 all lap1">
+        <img src="image/laptop5.webp" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+
+    <div class="div1 all lap1">
+        <img src="image/laptop2.jpg" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all lap1">
+        <img src="image/laptop6.jpg" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all lap1">
+        <img src="image/laptop8.png" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all lap1">
+        <img src="image/laptop13.jpg" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all lap1">
+        <img src="image/laptop9.png" class="lap all lap1" alt="">
+        <p style="width: 200px;" class="all lap1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all lap1 btn" onclick="counts()">+</button>
+    </div>
+
+
+
+    <!-- <img src="image/laptop5.webp" class="lap all" alt="">
+    <img src="image/laptop2.jpg" class="lap all" alt="">
+    <img src="image/laptop6.jpg" class="lap all" alt="">
+    <img src="image/laptop8.png" class="lap all" alt="">
+    <img src="image/laptop13.jpg" class="lap all" alt="">
+    <img src="image/laptop9.png" class="lap all" alt=""> -->
+
+    <div class="div1 all makeup1">
+        <img src="image/makeup1.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all makeup1">
+        <img src="image/makeup15.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all makeup1">
+        <img src="image/makeup2.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all makeup1">
+        <img src="image/makeup14.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all makeup1">
+        <img src="image/makeup19.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+    <div class="div1 all makeup1">
+        <img src="image/makeup18.jpg" class="makeup all makeup1" alt="">
+        <p style="width: 200px;" class="all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add all makeup1 btn" onclick="counts()">+</button>
+    </div>
+
+    <!-- <img src="image/makeup1.jpg" class="makeup all" alt="">
+    <img src="image/makeup15.jpg" class="makeup all" alt="">
+    <img src="image/makeup2.jpg" class="makeup all" alt="">
+    <img src="image/makeup14.jpg" class="makeup all" alt="">
+    <img src="image/makeup19.jpg" class="makeup all" alt="">
+    <img src="image/makeup18.jpg" class="makeup all" alt=""> -->
+
+
+    <!-- <div class="div2">
+        <img src="image/car15.jpg" alt="" width="250px" class="im">
+        <p style="width: 200px;" class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat
+            consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add2">+</button>
+    </div> -->
+
+
+    <div class="div3 div1 all">
+        <img src="image/car15.jpg" alt="" width="250px" class="all im div3 makeup1">
+        <p style="width: 200px;" class="p2 div3 all makeup1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Soluta
+            repellat
+            consequatur,
+            itaque quae eius sed
+            libero iure vel beatae! Excepturi</p>
+        <button class="add div3 all makeup1" onclick="counts()">+</button>
+    </div>
+
+
+    <button onclick="topFunction()" id="myBtn">Top</button>
+
+
+    <footer id="footer">
+
+        <p id="pf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel molestias maiores facere architecto
+            quasi dolor
+            eaque. Mollitia quibusdam </p>
+        <p id="pf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel molestias maiores facere architecto
+            quasi dolor
+            eaque. Mollitia quibusdam </p>
+        <p id="pf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel molestias maiores facere architecto
+            quasi dolor
+            eaque. Mollitia quibusdam </p>
+        <p id="pf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel molestias maiores facere architecto
+            quasi dolor
+            eaque. Mollitia quibusdam </p>
+
+        <a href="contactUS.html" target="_blank" id="con">Contact US</a>
+        <span class="fa-brands fa-facebook"></span>
+        <span class="fa-brands fa-google"></span>
+
+        <span class="fa-brands fa-twitter"></span>
+        <span class="fa-solid fa-house"></span>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
